@@ -1,0 +1,20 @@
+{
+  "name": "nocturne-cockroach-wallpaper",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "An interactive 3D cockroach wallpaper with an offline HTML build and a macOS desktop host.",
+  "license": "MIT",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "dependencies": {
+    "three": "0.184.0"
+  },
+  "devDependencies": {
+    "rolldown": "1.0.0"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}
